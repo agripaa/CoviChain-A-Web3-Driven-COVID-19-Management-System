@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/apple/Documents/projects/seleksi/gucc/contracts/CovidData.sol": {
+      "lastModificationDate": 1736157467264,
+      "contentHash": "ba96e3e7d49dda1ebb4c689ccb1dce99",
+      "sourceName": "contracts/CovidData.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UserCovidManagement"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+console.log("Deployer balance:", ethers.utils.formatEther(deployerBalance), "ETH");
+const deployerBalance = await deployer.getBalance();
+await UserCovidManagement.addCovidData("12345", "Negatif", "2025-01-01", "Sudah Vaksin");
+console.log("Deployer balance:", ethers.utils.formatEther(balance), "ETH");
+const balance = await deployer.getBalance();
+const UserCovidManagement = await ethers.getContractAt("UserCovidManagement", "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9", deployer);
+const [deployer] = await ethers.getSigners();
+console.log(ethers.utils.formatEther(balance));
+const balance = await deployer.getBalance();
+});
+  value: ethers.utils.parseEther("1.0") // Kirim 1 ETH
+  to: deployer.address,
+await sender.sendTransaction({
+const [sender] = await ethers.getSigners();
+  value: ethers.utils.parseEther("1.0") // Kirim 1 ETHers
+});
+  value: ethers.utils.parseEther("1.0") // Kirim 1 ETH
+  to: deployer.address,
+await sender.sendTransaction({
+const [sender] = await ethers.getSigners();
+console.log("Deployer balance:", ethers.utils.formatEther(balance), "ETH");
+const balance = await deployer.getBalance();
+await UserCovidManagement.addCovidData("12345", "Negatif", "2025-01-01", "Sudah Vaksin");
+const UserCovidManagement = await ethers.getContractAt("UserCovidManagement", contractAddress, deployer);
+const [deployer] = await ethers.getSigners();
+const contractAddress = "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"; // Ganti dengan alamat kontrak Anda
+await UserCovidManagement.addCovidData("12345", "Negatif", "2025-01-01", "Sudah Vaksin");
+const UserCovidManagement = await ethers.getContractAt("UserCovidManagement", contractAddress, deployer);
+const [deployer] = await ethers.getSigners();
+const contractAddress = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"; // Ganti dengan alamat kontrak Anda
+  await UserCovidManagement.addCovidData("12345", "Negatif", "2025-01-01", "Sudah Vaksin");
+  const UserCovidManagement = await ethers.getContractAt("UserCovidManagement", contractAddress, deployer);
+  const [deployer] = await ethers.getSigners();
+const contractAddress = "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9";
+await UserCovidManagement.addCovidData("12345", "Negatif", "2025-01-01", "Sudah Vaksin");
+await CovidData.tambahData("P001", "Negatif", "2025-01-03", "Sudah Vaksinasi");
+ const CovidData = await ethers.getContractAt("CovidData", "0xf90049939C2A9b5C80201177bf9E1D762212099c");
+checkUser("0xa5333ba790395657CDac083916488b8FfF5e453b");
+}
+  console.log("Is Registered:", user.isRegistered);
+  console.log("User Data:", user);
+  const user = await contract.users(address);
+async function checkUser(address) {
+console.log(data);
+const data = await CovidData.lihatData("P001");
+// Lihat data pasien
+await CovidData.tambahData("P001", "Negatif", "2025-01-03", "Sudah Vaksinasi");
+// Tambah data pasien
+const CovidData = await ethers.getContractAt("CovidData", "0xf90049939C2A9b5C80201177bf9E1D762212099c");
